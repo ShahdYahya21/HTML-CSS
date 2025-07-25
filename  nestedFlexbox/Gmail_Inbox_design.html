@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gmail Inbox design</title>
+        <style>
+            .container{
+                width:325px;
+                height: 100px;
+                box-shadow:  0 0 10px rgba(0, 0, 0, 0.15);
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+
+            }
+            .firstFlixbox {
+              font-family: Arial;
+              color: gray;
+              font-size: 11px;
+              margin-top: 5px;
+              margin-left: 10px;
+              margin-bottom: 10px;
+
+            }
+            
+            .secondFlex {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+            }
+            .tile-and-time{
+                display: flex;
+                justify-content: space-between;
+                 font-family: Arial;
+            }
+            .title{
+                font-size: 14px;
+                font-weight: bold;
+
+            }
+            .time{
+                font-size: 10px;
+                color: gray;
+            }
+            
+            .profilePic {
+                width: 40px;
+                height: 40px;
+                border-radius:20px;
+            }
+            .bold-message {
+                font-weight: bold;
+                font-family: Arial;
+                color: black;
+                margin-top: 3px;
+                margin-bottom: 0px;
+                 font-size: 12px;
+
+
+            }
+            .normal-message {
+               font-family: Arial;
+                color: gray;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                font-size: 12px;
+                
+            }
+            .content{
+                margin-right: 10px;
+            }
+
+
+
+          
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="firstFlixbox">
+                ALL INBOXES
+            </div>
+            <div class="secondFlex">
+                <div class = "image">
+                    <img class = "profilePic" src="profilePicture.webp">
+
+                </div>
+                <div class = "content">
+                    <div class = "tile-and-time">
+                          <div class = "title">
+                           Chewy Promotions
+                         </div>
+                         <div class = "time">
+                            4:58 PM
+                         </div>
+                    </div>
+
+                <div class = "message">
+                    <p class = "bold-message">Biggest sales of the year!</p>
+                    <p class = "normal-message">Hey there! We're writing to tell you about our...</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+       </body>
+</html>
