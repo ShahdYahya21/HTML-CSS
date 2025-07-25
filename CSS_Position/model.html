@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            model for CSS Positioning
+        </title>
+        <style>
+            .right-sidebar{
+                position: fixed;
+                right: 0px;
+                top:0px;
+                bottom: 0px;
+                width: 200px;
+                background-color: rgba(0, 128, 0, 0.922);
+                color: white;
+                font-size: 20px;
+            }
+            .overlay {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .model {
+                background-color: white;
+                border-radius: 10px;
+                width: 300px;
+
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                padding-left: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                font-family: Arial;
+                }
+            .title {
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 0px;
+            }
+            .button{
+                cursor: pointer;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class = "right-sidebar">
+            right sidebar
+        </div>
+        <div  class = "overlay">    
+            <div class = "model">
+                <p class = "title">Model Title</p>
+                <p class = "description">This is a model</p>
+                <button class = "button">close</button>
+            </div>
+        </div>
+
+        <div>   
+
+        </div>
+
+    </body>
+
+</html>
